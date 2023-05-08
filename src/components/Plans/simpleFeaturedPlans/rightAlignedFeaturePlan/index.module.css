@@ -1,0 +1,25 @@
+.cardWrapper {
+  padding: 2rem;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+  .cardWrapper {
+    width: 90%;
+    gap: 4.5rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .cardWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+}

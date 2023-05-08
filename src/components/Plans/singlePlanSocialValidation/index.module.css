@@ -1,0 +1,363 @@
+.viewPage {
+  background-color: #ffffff;
+  height: 90rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.wrapper {
+  padding: 2rem;
+  background-color: #ffffff;
+}
+
+.box {
+  width: 100%;
+  height: 55rem;
+  background-color: #e8e8e8;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  height: 2rem;
+  align-items: center;
+  background-color: #d9d9d9;
+  border-radius: 10px 10px 0 0;
+}
+
+.head > p {
+  color: #000000;
+
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.contentWrapper {
+  height: 100%;
+}
+
+.enterpriseContent {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.EnterpriseLineImage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  gap: 0.5rem;
+}
+.EnterpriseLineImage > svg {
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.btn {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1rem;
+  border-radius: 5px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  width: 100%;
+}
+
+.content > p {
+  color: #414141;
+  font-size: 0.875rem;
+}
+
+.bestPlan {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.bestPlan > h4 {
+  width: 10%;
+  font-weight: 600;
+  color: #414141;
+  font-size: 0.95rem;
+}
+
+.planHighlightsHead > h4 {
+  width: 10%;
+}
+
+.sectionLeft {
+  display: flex;
+  padding: 3rem;
+
+  width: 95%;
+  height: 60%;
+  margin: auto;
+  gap: 3rem;
+}
+
+.enterpriseContent {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  width: 30%;
+}
+
+.sectionRight {
+  width: 70%;
+  padding: 1rem;
+  gap: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.analytics {
+  display: flex;
+  justify-content: space-between;
+
+  gap: 1rem;
+}
+
+.analyticHead {
+  display: flex;
+
+  gap: 1rem;
+}
+
+.analyticPara a {
+  text-decoration: underline;
+  font-weight: 400;
+  color: #414141;
+  font-size: 0.95rem;
+}
+
+.analyticPara p {
+  font-weight: 400;
+  color: #414141;
+  font-size: 0.95rem;
+}
+
+.analyticPara {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.analyticPara h4 {
+  font-weight: 600;
+  color: #414141;
+  font-size: 0.95rem;
+}
+
+.videoMgmtHead {
+  display: flex;
+  gap: 1rem;
+}
+
+.videoMgmtPara {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.videoMgmtPara h4 {
+  font-weight: 600;
+  color: #414141;
+  font-size: 0.95rem;
+  width: 50%;
+}
+
+.videoMgmtPara > p,
+.videoMgmtPara > a {
+  font-size: 1rem;
+  color: #414141;
+  font-weight: 400;
+
+  font-size: 0.95rem;
+}
+
+.videoMgmtPara a {
+  text-decoration: underline;
+  color: #414141;
+}
+
+.planHighlights {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.planHighlightsHead {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.planHighlightsHead h4 {
+  font-weight: 600;
+  color: #414141;
+  font-size: 0.95rem;
+}
+
+.planHighContent {
+  display: flex;
+}
+
+.planContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.planContent p {
+  font-weight: 400;
+  color: #414141;
+  font-size: 0.85rem;
+}
+
+.featureContent {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 80%;
+}
+
+.planContentRight {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.videoBox {
+  width: 70%;
+  margin: auto;
+}
+
+.videoBox > svg {
+  width: 100%;
+}
+
+.footer {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footerLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 25%;
+}
+
+.LeftLogoBtn {
+  background-color: #b4b4b4;
+  padding: 1.5rem 2rem;
+  border: none;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.footerRight {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 65%;
+}
+
+.footerRight h4 {
+  font-size: 1rem;
+  width: 90%;
+}
+
+.profile {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.profileText {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.profileImage {
+  height: 1.5625rem;
+}
+
+.profileImage > svg {
+  height: 100%;
+}
+
+.viewStory {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.viewStory p {
+  color: #000000;
+  font-weight: 700;
+  font-size: 0.75rem;
+}
+
+.forwardIcon {
+  height: 20px;
+}
+
+.viewStory > svg {
+  height: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .sectionLeft {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+  }
+
+  .enterpriseContent {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .content {
+    justify-content: center;
+    align-items: center;
+  }
+  .content > button {
+    width: 50%;
+  }
+
+  .sectionRight {
+    width: 100%;
+  }
+
+  .contentWrapper {
+    height: 100%;
+  }
+
+  .sectionLeft {
+    height: 65%;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .sectionRight {
+    overflow: scroll;
+    height: 100%;
+  }
+}

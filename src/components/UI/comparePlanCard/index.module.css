@@ -1,0 +1,32 @@
+.pricing {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  width: 15%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  height: 9rem;
+}
+
+.content > h4 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  background-color: #00adef;
+  border-radius: 5px;
+  border: none;
+}

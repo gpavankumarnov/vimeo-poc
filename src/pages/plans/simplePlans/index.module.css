@@ -1,0 +1,16 @@
+.wrapper {
+  background-color: white;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+@media screen and (min-width: 380px) {
+  .wrapper {
+    padding: 1rem;
+  }
+}

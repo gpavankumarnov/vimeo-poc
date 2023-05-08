@@ -1,0 +1,36 @@
+.contentWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.container {
+  height: 100%;
+  /* padding: 1.25rem; */
+}
+
+.cardsWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  background-color: #d9d9d9;
+  padding: 0rem 3rem;
+}
+
+@media screen and (min-width: 450px) and (max-width: 768px) {
+  .cardsWrapper {
+    overflow-x: auto;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 450px) {
+  .cardsWrapper {
+    overflow-x: auto;
+  }
+}

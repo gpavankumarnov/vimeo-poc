@@ -1,0 +1,36 @@
+.cardWrapper {
+  padding: 2rem;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  .cardWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    grid-gap: 1rem;
+  }
+}
+
+/* @media screen and (min-width: 320px) and (max-width: 720px) {
+  .cardWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+} */
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  .cardWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

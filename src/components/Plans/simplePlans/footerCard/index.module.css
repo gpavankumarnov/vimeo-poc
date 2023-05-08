@@ -1,0 +1,62 @@
+.helpForPlanChoose {
+  background-color: #eaeaea;
+
+  padding: 2rem;
+  width: 75%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.helpText {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.helpText > h3 {
+  color: #282828;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.helpText > p {
+  font-size: 0.85rem;
+  line-height: 1.5rem;
+  color: #7c7c7c;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .helpForPlanChoose {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .helpText > h3 {
+    font-size: 1rem;
+  }
+
+  .helpText > p {
+    font-size: 0.85rem;
+    /* line-height: 1.3rem; */
+  }
+
+  .helpForPlanChoose {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

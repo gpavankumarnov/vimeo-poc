@@ -1,0 +1,35 @@
+.container {
+  display: grid;
+  grid-template-columns: 0.7fr repeat(5, 0.5fr);
+  grid-column-gap: 0.5rem;
+  border-bottom: 1px solid;
+
+  height: 3rem;
+}
+
+.rows {
+  text-align: center;
+  word-wrap: break-word;
+  /* background-color: #f9f9f9; */
+  background: linear-gradient(
+      0deg,
+      rgba(249, 249, 249, 0.75),
+      rgba(249, 249, 249, 0.75)
+    ),
+    #ffffff;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.context {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container > div {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
